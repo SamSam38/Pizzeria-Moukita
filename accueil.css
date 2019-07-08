@@ -1,0 +1,62 @@
+.animacc {
+  display: block;
+  position: absolute !important;
+  height: 20%;
+  width: max-content;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-family: "Berkshire Swash", cursive;
+  visibility: hidden;
+}
+.animacc #award {
+  display: block !important;
+  font-size: 70px;
+  color: rgb(151, 131, 43);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  animation: 1s animacc;
+  width: max-content;
+  border-radius: 50%;
+}
+
+.animacc h1 {
+  font-size: 50px;
+  animation: 1s animacc;
+  animation-delay: 0.2s;
+  padding: 15px;
+}
+
+.hranim {
+  padding: 3px;
+  animation: 1s animacc;
+  animation-delay: 0.2s;
+  height: 1px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(151, 131, 43),
+    transparent
+  );
+}
+
+@keyframes animacc {
+  0% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

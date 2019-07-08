@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/2341ce5188.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Alex+Brush|Arimo|Merriweather|Noto+Sans|Rubik|Source+Sans+Pro|Playfair+Display|Libre+Baskerville|Luckiest+Guy|Alfa+Slab+One|Merienda|Permanent+Marker|Pacifico|Crete+Round|Great+Vibes|Allura|Courgette|Lora|Cookie|Dancing+Script|Raleway|Barlow|Cinzel|EB+Garamond|Muli|Nanum+Gothic|Cookie|Titillium+Web|Ubuntu|Kaushan+Script|Mr+Dafoe|Titillium+Web|Nothing+You+Could+Do|Pacifico|Parisienne|Pinyon+Script|Playball|Tangerine|Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="plan.css" />
+    <title>Contact - Pizzeria Moukita</title>
+  </head>
+  <body>
+    <div class="mynavbar">
+      <a id="titre" href="accueil.html">
+        <h4 id="titre">
+          <span style="color: red">P</span>
+          <span style="color: red">i</span>
+          <span style="color: red">z</span>
+          <span style="color: red">z</span>
+          <span style="color: rgb(216, 216, 216);">a</span>
+          <span style="color: rgb(216, 216, 216);">m</span>
+          <span style="color: rgb(216, 216, 216);">o</span>
+          <span style="color: rgb(216, 216, 216);">u</span>
+          <span style="color: green">k</span>
+          <span style="color: green;">i</span>
+          <span style="color: green;">t</span>
+          <span style="color: green;">a</span>
+        </h4>
+      </a>
+      <ul class="navlinks">
+        <li><a href="accueil.html">Accueil</a></li>
+        <i class="fas fa-star" style="color:green"></i>
+        <li><a href="carte.html">La carte</a></li>
+        <i class="fas fa-star" style="color:rgb(216,216,216)"></i>
+        <li><a href="produits.html">Nos produits</a></li>
+        <i class="fas fa-star" style="color:rgb(216,216,216)"></i>
+        <li><a href="plan.html">Plan</a></li>
+        <i class="fas fa-star" style="color: red"></i>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <h4 id="tel">
+        <i id="telicon" class="fas fa-phone-alt"></i>06.42.82.09.77
+      </h4>
+    </div>
+
+    <div class="allcontact">
+        <img src="img/logo2.png" alt="" />
+      <div class="infocontact">
+          
+        <h1>Restaurant-pizzeria Moukita</h1>
+        <h2>Adresse</h2>
+        <p>
+          130 Chemin du haut manival. <br />
+          38330, <br />
+          Saint-Ismier.
+        </p>
+        <h2>Contact</h2>
+        <p>
+          06.42.82.09.77
+        </p>
+        <h2>Informations</h2>
+        <p>
+          Ouvert du mardi au dimanche, midi et soir. <br />
+          Modes de paiement: Espèces, Chèque, Carte bancaire, Ticket restaurant.
+        </p>
+        <h2>Lien</h2>
+        <p><a href="plan.html">Plan d'accès</a></p>
+        <h2 id="formtitle">Formulaire de contact:</h2>
+        <form action:"mailto:s.misbah@laposte.net" class="form" method="GET">
+          <div>
+            <label for="name" id="name lbl" class="required">Nom *</label>
+            <input type="text" id="name" name="name" class="required" />
+          </div>
+          <div>
+            <label for="email" id="name lbl" class="required">Email *</label>
+            <input type="text" id="name" class="required" name="email" />
+          </div>
+          <div id="test">
+            <label for="sujet" id="sujet lbl" class="required">Sujet *</label>
+            <input type="text" id="sujet" class="required" name="sujet" />
+          </div>
+          <div>
+            <label for="message" id="message lbl" class="required"
+              >Message *</label
+            >
+            <textarea
+              type="text"
+              id="message"
+              class="required"
+              name="message"
+            ></textarea>
+          </div>
+          <div class="buttonsub">
+          <button onclick="location.href='mailto:s.misbah@laposte.net'" id="envoyer">Envoyer</button>
+           </div>
+        </form>
+      </div>
+    </div>
+    <div class="footercontact" id="footer">
+      <div class="horairescontainer">
+        <div class="hrht"></div>
+        <div class="horaires">
+          <ul id="horaires1">
+            <li>Lundi: Fermé</li>
+            <li>Mardi: 11h-14h30 19h-23h</li>
+            <li>Mercredi: 11h-14h30 19h-23h</li>
+            <li>Jeudi: 11h-14h30 19h-23h</li>
+          </ul>
+          <ul id="horaires2">
+            <li>Vendredi: 11h-14h30 19h-00h</li>
+            <li>Samedi: 11h-14h30 19h-00h</li>
+            <li>Dimanche: 11h-14h30 19h-23h</li>
+          </ul>
+        </div>
+        <div class="hrhb"></div>
+      </div>
+      <div class="logo">
+        <img src="img/logo2.png" alt="" />
+      </div>
+      <div class="copysocial">
+        <div id="copyright">
+          <i class="far fa-copyright"></i> Copyright Restaurant-pizzeria Moukita
+        </div>
+        <div id="name">
+          <a href="http://www.codepen.io/sammy-misbah" target="_blank"
+            >Sammy Misbah</a
+          >
+        </div>
+        <div id="socialmedia">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a
+          ><a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

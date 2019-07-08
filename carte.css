@@ -1,0 +1,64 @@
+.imgcontainer img {
+  width: 100%;
+  height: 100vh;
+}
+#iconpizza {
+  color: rgb(62, 151, 62);
+}
+#quality {
+  margin-bottom: 60px;
+}
+
+.hrcontainer {
+  width: 40%;
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(202, 19, 19),
+    transparent,
+    rgb(231, 231, 231),
+    transparent,
+    rgb(0, 185, 9),
+    transparent
+  );
+  height: 5px;
+}
+
+.iconscarte {
+  display: block;
+}
+.iconsanim {
+  padding: 10px;
+}
+
+#svgcarte {
+  height: 120px;
+  margin: auto;
+  width: 100%;
+  fill: rgba(158, 0, 0, 0.678);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.quality {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+.quality li {
+  font-size: 34px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
+  color: rgb(71, 71, 71);
+  font-family: "Cookie", cursive;
+}
+
+.quality li i {
+  padding-right: 8px;
+  font-size: 30px;
+  color: rgb(62, 151, 62);
+}
